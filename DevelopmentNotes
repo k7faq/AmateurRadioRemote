@@ -1,6 +1,8 @@
 General Development Path
 ------------------------
 
+Please read our background notes too.
+
 C/C++ will be primary for Hardware functionality controls. As each module has its specific needs the appropriate language will be used to allow incorporation of other Open Source Technology.
 
 Establish communications protocols for Raspberry Pi devices to communicate wirelessly. Wifi with external antennas.
