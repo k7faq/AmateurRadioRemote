@@ -1,0 +1,32 @@
+General Development Path
+------------------------
+
+C/C++ will be primary for Hardware functionality controls. As each module has its specific needs the appropriate language will be used to allow incorporation of other Open Source Technology.
+
+Establish communications protocols for Raspberry Pi devices to communicate wirelessly. Wifi with external antennas.
+- Design necessary circuits, as applicable, to support external antenna(s) on each end.
+- Software to support Serial Communications between Raspberry Pi and Arduino module(s).
+- C++
+
+Creation of controller interface - touchscreen and Android/IOS via BlueTooth.
+- Java for Interface (J2EE)
+- UI will call C++ apps for controls functions
+
+Establish modules for popular radios supporting remote control.
+- Will incorporate a variety of technologies.
+- C++ will be the primary with heavy emphasis on API style functionality.
+
+Addition of software for remote access via TCP/IP.
+- Specific Language yet to be determined. Suspect C++.
+- Will allow exchange of instructions between two Raspberry Pi units via TCP/IP.
+o Security - Units must be paired.
+
+Website 
+- Yet to be established. As project progresses a domain will be secured and taken live.
+- NodeJS 
+o Allow users to lookup their personal registered devices and re-pair them remotely.
+o Register Devices - CRUD
+o Locate designs by other users for additional devices with build instructions.
+
+Please contact K7FAQ for further status updates.
+Contributors - KF7SQU
